@@ -11,6 +11,9 @@ body {
   margin: 0px;
   height: 100%;
   width: 100%;
+  background-image: url("oblique.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 h2 {
@@ -18,7 +21,7 @@ h2 {
 }
 
 header {
-  background-color: rgb(32, 111, 85);
+  background-color: rgb(9, 50, 36);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -38,9 +41,7 @@ li {
 
 main {
   height: 100vh;
-  background-image: url("oblique.jpg");
-  background-size: cover;
-  background-position: center;
+
   margin: 0;
   display: flex;
   align-items: center;
@@ -49,5 +50,5 @@ main {
 
 h1 {
   font-size: 4em;
-  box-shadow: 2px 2px 2px gray;
+  text-shadow: 2px 2px 5px black;
 }
