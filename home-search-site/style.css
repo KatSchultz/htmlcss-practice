@@ -88,3 +88,20 @@ input {
   border-radius: 5px;
   border: 1px solid gray;
 }
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-title {
+  padding-left: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.search-service {
+  padding: 20px;
+}
