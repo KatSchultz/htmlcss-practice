@@ -8,22 +8,24 @@
     <title>Home Search</title>
   </head>
   <body>
-    <div class="top-nav navigation">
-      <div>
-        <img
-          src="house-icon.png"
-          alt="red house icon"
-          class="red-house top-house"
-        />
-      </div>
-      <ul id="first-nav">
-        <li>Mortgage</li>
-        <li>Personal Loan</li>
-        <li>Real Estate</li>
-        <li>Auto</li>
-      </ul>
-    </div>
     <header>
+      <div class="top-nav navigation">
+        <div>
+          <img
+            src="house-icon.png"
+            alt="red house icon"
+            class="red-house top-house"
+          />
+        </div>
+        <ul id="first-nav">
+          <li>Mortgage</li>
+          <li>Personal Loan</li>
+          <li>Real Estate</li>
+          <li>Auto</li>
+        </ul>
+      </div>
+    </header>
+    <main>
       <nav class="dropdown-nav navigation">
         <img src="house-icon.png" alt="red house icon" class="red-house" />
         <h1>Spaceship Homes</h1>
@@ -33,8 +35,6 @@
           <li>Finances</li>
         </ul>
       </nav>
-    </header>
-    <main>
       <div class="home-top">
         <h2 class="search-title">Discover Your Next Home</h2>
         <form action="">
@@ -47,7 +47,7 @@
               type="text"
               placeholder="Address, Neighborhood, City or ZIP"
             />
-            <button>Search</button>
+            <button class="home-search-btn">Search</button>
           </div>
         </form>
       </div>
@@ -56,31 +56,44 @@
           <h2>A Better Home Buying And Selling Experience Starts Here</h2>
         </div>
         <div class="service-options flex">
-          <div class="search-service services flex">
-            <img src="" alt="" />
-            <h3>Search For Homes</h3>
-            <p class="service-text">
-              Listings are updated continuously so you won't miss out on homes
-              that just hit the market.
-            </p>
-            <button class="service-button">See Homes Near You</button>
+          <div class="flex-container flex">
+            <div class="search-service services flex">
+              <img src="" alt="" />
+              <h3>Search For Homes</h3>
+              <p class="service-text">
+                Listings are updated continuously so you won't miss out on homes
+                that just hit the market.
+              </p>
+            </div>
+            <div class="service-btn-div">
+              <button class="service-button">See Homes Near You</button>
+            </div>
           </div>
-          <div class="search-service agent flex">
-            <img src="" alt="" />
-            <h3>Match With An Agent</h3>
-            <p class="service-text">
-              Our verified partner agents are local experts who earn an average
-              of 4.8/5 stars from buyers and sellers just like you.
-            </p>
-            <button class="service-button">Connect With An Agent</button>
+          <div class="flex-container flex">
+            <div class="search-service agent flex">
+              <img src="" alt="" />
+              <h3>Match With An Agent</h3>
+              <p class="service-text">
+                Our verified partner agents are local experts who earn an
+                average of 4.8/5 stars from buyers and sellers just like you.
+              </p>
+            </div>
+            <div class="service-btn-div">
+              <button class="service-button">Connect With An Agent</button>
+            </div>
           </div>
-          <div class="search-service financing flex">
-            <img src="" alt="" />
-            <h3>Get Financed</h3>
-            <p class="service-text">
-              We make it easy to get approved for your home loan.
-            </p>
-            <button class="service-button">Explore Loan Options</button>
+            <div class="flex-container flex">
+              <div class="search-service financing flex">
+                <img src="" alt="" />
+                <h3>Get Financed</h3>
+                <p class="service-text">
+                  We make it easy to get approved for your home loan.
+                </p>
+              </div>
+              <div class="service-btn-div">
+                <button class="service-button">Explore Loan Options</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
