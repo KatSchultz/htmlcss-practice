@@ -98,8 +98,12 @@ input {
 }
 
 .home-search-btn {
+  background-color: red;
+  color: white;
   padding: 10px;
   margin: 0px;
+  border: none;
+  border-radius: 5px;
 }
 
 /* SERVICES SECTION */
